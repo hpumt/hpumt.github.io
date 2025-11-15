@@ -1,1 +1,7 @@
 /* Here is your custom css styles. */
+/*自动隐藏导航栏*/
+.navbar-fixed.is-hidden {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
